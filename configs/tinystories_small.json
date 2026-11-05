@@ -1,0 +1,20 @@
+{
+  "vocab_size": 4096,
+  "context_length": 128,
+  "d_model": 128,
+  "num_layers": 4,
+  "num_heads": 4,
+  "d_ff": 384,
+  "batch_size": 16,
+  "num_steps": 6000,
+  "max_learning_rate": 0.001,
+  "min_learning_rate": 0.0001,
+  "warmup_iters": 50,
+  "cosine_cycle_iters": 6000,
+  "device": "auto",
+  "log_interval": 10,
+  "eval_interval": 100,
+  "eval_batches": 10,
+  "checkpoint_interval": 250,
+  "max_seconds": 600
+}

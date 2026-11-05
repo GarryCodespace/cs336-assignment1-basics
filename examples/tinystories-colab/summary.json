@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "gpu": "NVIDIA Tesla T4",
+  "parameters": 1901696,
+  "dataset": "roneneldan/TinyStories, TinyStoriesV2-GPT4",
+  "prepared_train_tokens": 558691196,
+  "prepared_validation_tokens": 5641010,
+  "tokenizer_sha256": "9d51d5f8c89bfb20a9287ef983887e4afdbce1df18b192d46c46263be208e5f3",
+  "final_metrics": {
+    "step": 6000,
+    "train_loss": 2.6158595085144043,
+    "lr": 0.00010000006272610517,
+    "elapsed_seconds": 157.90706015699993,
+    "tokens_processed": 12288000,
+    "tokens_per_second": 77817.9264928534,
+    "validation_loss": 2.3963056802749634,
+    "validation_perplexity": 10.982528372305847
+  }
+}
